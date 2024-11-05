@@ -1,9 +1,13 @@
+import './index.css'
 import ReactDOM from 'react-dom'
 import React from 'react'
+
+import Primeiro from './components/basicos/Primeiro'
 
 //const el = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <strong>OLA MUNDO React !!!</strong>
+        <Primeiro></Primeiro>
     </div>,
-    document.getElementById('root'))
+    document.getElementById('root')
+)
