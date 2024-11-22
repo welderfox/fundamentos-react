@@ -11,12 +11,19 @@ import Aleatorio from "./components/basicos/Aleatorio";
 export default _ =>
     <div>
         <h1>Fundamentos React (Arrow)</h1>
-        <Card titulo="Desafio Aleatorio">
+        <Card titulo="#4 - Desafio Aleatorio">
             <Aleatorio min={10} max={60} />
         </Card>
-        <Fragmento />
-        <ComParametro
-            titulo="Situação aluno..."
-            subtitulo="Legal" />
-        <Primeiro />
+        <Card titulo="#3 - Fragmento">
+            <Fragmento />
+        </Card>
+        <Card titulo="#2 - Com Parametro">
+            <ComParametro
+                titulo="Situação aluno..."
+                subtitulo="Legal" />
+            <Primeiro />
+        </Card>
+        <Card titulo="#1 - Primeiro componente">
+            <Primeiro />
+        </Card>
     </div>
